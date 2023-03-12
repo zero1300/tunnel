@@ -1,0 +1,8 @@
+client:
+  # 控制服务器的地址,用于和服务端建立连接
+  controlServerAddr: "127.0.0.1:8000"
+  # 隧道服务器的地址,用于转发数据
+  tunnelServerAddr: "127.0.0.1:8001"
+  # 需要进行内网穿透的地址
+  localServerAddr: "127.0.0.1:8080"
+

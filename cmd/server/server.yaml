@@ -1,0 +1,7 @@
+server:
+  # 控制服务器的地址,用于和客户端建立连接
+  controlServerAddr: "0.0.0.0:8000"
+  # 隧道服务器的地址,用于转发数据
+  tunnelServerAddr: "0.0.0.0:8001"
+  # 用户请求服务的地址, 用于接收用户请求
+  userRequestServerAddr: "0.0.0.0:8899"
